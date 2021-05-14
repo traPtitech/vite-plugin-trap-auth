@@ -24,6 +24,7 @@ export const redirectToPipeline = (
   res.writeHead(302, {
     Location: url.href
   })
+  res.end()
 }
 
 export const validateToken = (
