@@ -3,6 +3,8 @@ import type { ServerResponse } from 'http'
 
 export type IncomingMessageWithURL = Connect.IncomingMessage & { url: string }
 
+const PIPELINE_URL = 'https://portal.trap.jp/pipeline'
+
 export const hasURL = (
   req: Connect.IncomingMessage
 ): req is IncomingMessageWithURL => req.url !== undefined
@@ -19,7 +21,7 @@ export const redirectToPipeline = (
   req: IncomingMessageWithURL,
   res: ServerResponse
 ): void => {
-  const url = new URL('https://q.trap.jp/pipeline')
+  const url = new URL(PIPELINE_URL)
   url.searchParams.set('redirect', `http://${req.headers.host}${req.url}`)
   res.writeHead(302, {
     Location: url.href
