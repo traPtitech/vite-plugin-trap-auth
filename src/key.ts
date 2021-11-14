@@ -14,7 +14,6 @@ OQIDAQAB
 
 `.trim()
 
-// eslint-disable-next-line @typescript-eslint/ban-types
 export const verify = (token: string): string | object =>
   _verify(token, JWT_PUBLIC_KEY, {
     algorithms: ['RS256']

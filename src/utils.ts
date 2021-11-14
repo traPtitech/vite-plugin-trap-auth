@@ -30,7 +30,6 @@ export const redirectToPipeline = (
 }
 
 export const validateToken = (
-  // eslint-disable-next-line @typescript-eslint/ban-types
   data: string | object
 ): data is { id: string } => {
   if (typeof data === 'string') {
