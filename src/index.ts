@@ -40,7 +40,7 @@ export const PluginTrapAuth = ({
       }
 
       const cookies = cookie.parse(req.headers.cookie ?? '')
-      const rawToken = queryToken ?? cookies.traP_token ?? ''
+      const rawToken = queryToken ?? cookies['traP_token'] ?? ''
       if (rawToken === '') {
         redirectToPipeline(req, res)
         return
