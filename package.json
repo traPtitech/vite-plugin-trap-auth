@@ -24,21 +24,21 @@
   },
   "homepage": "https://github.com/traPtitech/vite-plugin-trap-auth#readme",
   "peerDependencies": {
-    "vite": "^2.5.1"
+    "vite": "^2.6.14"
   },
   "devDependencies": {
     "@types/cookie": "^0.4.1",
     "@types/jsonwebtoken": "^8.5.5",
-    "@typescript-eslint/eslint-plugin": "^4.29.3",
-    "@typescript-eslint/parser": "^4.29.3",
-    "eslint": "^7.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.1",
-    "prettier": "^2.3.2",
-    "rollup": "^2.56.3",
-    "tsup": "^4.14.0",
-    "typescript": "^4.3.5",
-    "vite": "^2.5.1"
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "rollup": "^2.60.0",
+    "tsup": "^5.7.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.14"
   },
   "dependencies": {
     "cookie": "^0.4.1",
