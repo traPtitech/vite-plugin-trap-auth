@@ -1,4 +1,4 @@
-import { verify as _verify } from 'jsonwebtoken'
+import jwt from 'jsonwebtoken'
 
 const JWT_PUBLIC_KEY = `
 
@@ -15,6 +15,6 @@ OQIDAQAB
 `.trim()
 
 export const verify = (token: string): string | object =>
-  _verify(token, JWT_PUBLIC_KEY, {
+  jwt.verify(token, JWT_PUBLIC_KEY, {
     algorithms: ['RS256']
   })
