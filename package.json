@@ -1,6 +1,6 @@
 {
   "name": "@traptitech/vite-plugin-trap-auth",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "",
   "type": "module",
   "main": "./dist/index.js",
