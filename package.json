@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/cookie": "^0.5.1",
-    "@types/jsonwebtoken": "^8.5.8",
+    "@types/jsonwebtoken": "^9.0.0",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
     "eslint": "^8.31.0",
@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "cookie": "^0.5.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   }
 }
