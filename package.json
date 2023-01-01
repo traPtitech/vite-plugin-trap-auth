@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/traPtitech/vite-plugin-trap-auth#readme",
   "peerDependencies": {
-    "vite": "^3.0.0"
+    "vite": "^3.0.0 || ^4.0.0"
   },
   "devDependencies": {
     "@types/cookie": "^0.5.1",
